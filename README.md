@@ -18,6 +18,8 @@ Or install it yourself as:
 
 ## Usage
 
+    require 'rbenv/which'
+
     # run script by ruby 1.9.3-p448
     `#{Rbenv.which_ruby("1.9.3-p448") test_script.rb`
 
