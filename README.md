@@ -21,10 +21,10 @@ Or install it yourself as:
     require 'rbenv/which'
 
     # run script by ruby 1.9.3-p448
-    `#{Rbenv.which_ruby("1.9.3-p448") test_script.rb`
+    `#{Rbenv.which_ruby("1.9.3-p448")} test_script.rb`
 
     # run script by jruby-1.7.4
-    `#{Rbenv.which_ruby("jruby-1.7.4") test_script.rb`
+    `#{Rbenv.which_ruby("jruby-1.7.4")} test_script.rb`
 
 ## Contributing
 
